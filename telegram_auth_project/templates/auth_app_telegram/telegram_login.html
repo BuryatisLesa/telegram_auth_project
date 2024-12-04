@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация через Telegram</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="auth-box">
+            <h1 class="title">Вход через Telegram</h1>
+            <p class="description">Для продолжения авторизуйтесь через Telegram.</p>
+            <a href="https://t.me/AuthTGKeyBot?start=login" class="telegram-button">
+                Войти через Telegram
+            </a>
+        </div>
+    </div>
+</body>
+</html>
